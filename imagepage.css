@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+ 
+    background-color:rgba(194, 193, 193, 0.192);
+}
+#topmostbar{
+    background-color: rgb(241, 241, 241);
+    padding-top: 80px;
+    
+}
+        #content img{
+            height:12vw;
+            width: 15vw;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 10px;
+            cursor: pointer;
+        }
+       #top_window{
+        
+        background-image:linear-gradient(to right,red,orange,yellow,rgb(10, 248, 10));
+        margin-left: 20vw;
+        width:55vw;
+        height:40vw;
+        border-radius: 15px;
+        margin-top: 0vw;
+        margin-bottom: 3vw;
+        border: 2px solid rgb(255, 255, 255);
+        padding: 0.5vw;
+        animation-name: top_window;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        transition: background-image ease;
+       }
+       @keyframes top_window {
+           25%{
+        background-image:linear-gradient(to right,rgb(255, 11, 11),orange,yellow,rgb(10, 248, 10),blue);
+           }
+           50%{
+            background-image:linear-gradient(to top,red,orange,yellow,rgb(10, 248, 10),blue);
+           }
+           75%{
+            background-image:linear-gradient(to left,red,orange,yellow,rgb(10, 248, 10),blue);
+           }
+           100%{
+            background-image:linear-gradient(to bottom,red,orange,yellow,rgb(10, 248, 10),blue);
+           }
+       }
+       #top_window img{
+          height:100%;
+          width:100%;
+          border-radius: 15px;
+          
+       }
+       #name{
+        margin-left: 5px;
+           border: 5px double rgb(0, 0, 0);
+           border-radius: 3vw 3vw 0px 0px;
+           padding: 0.9vw;
+           border-bottom: none;
+           padding-left: 20px;
+           background-color: rgba(136, 131, 131, 0.829);
+           color:rgb(12, 11, 11);
+           font-size:25px;
+           font-weight:bold;
+           margin-top:10px;
+           margin-bottom:0px;
+           color:white;
+       }
+       #content{
+        margin-left: 5px;
+        border: 5px double black;
+        border-top: none;
+       }
+       #image{
+        background-color: rgba(7, 7, 7, 0.829);
+        padding: 5px;
+      
+       }
+      
+    
