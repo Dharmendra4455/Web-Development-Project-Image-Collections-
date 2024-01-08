@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="topmostlogo.css" rel="stylesheet">
+    </head>
+    <style>
+        body{
+            margin: 0px;
+            background-image: radial-gradient(circle,rgba(51, 255, 0, 0.877),rgba(177, 207, 6, 0.966),rgb(239, 255, 11),rgba(250, 239, 192, 0.938));  
+        }
+ 
+        #getintouch{
+            color: rgb(252, 14, 14);
+            font-size: 50px;
+            margin-left:20%;
+          /*  margin-top: 100px;*/
+          padding-top: 100px;
+            margin-bottom: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        #container{
+            display: flex;
+            justify-content:space-evenly;
+        }
+        .items{
+            height: 120px;
+            width: 125px;
+            background-image:linear-gradient(to bottom,red,orange,yellow,green,blue,purple,pink,white);
+            border-radius: 10%;
+        }
+        .item-image{
+           margin:10px;
+            height: 100px;
+            width: 100px;
+           background-color: black;
+            border-radius: 10%;
+        }
+        .item-image:hover{
+            height: 110px;
+            width: 115px; 
+        }
+        .social-media{
+            text-decoration: none;
+            
+        }
+        .name{ 
+            color:black;
+            margin-top: 10px;
+            font-size: 25px;
+            font-weight: bold;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        @media screen and (max-width:600px){
+            #getintouch{
+                font-size: 10vw;
+            }
+            .item-image{
+                height: 18vw;
+                 width: 18vw;
+                margin:2vw 2vw 2vw 2vw;
+            }
+            .items{
+            height: 21vw;
+            width: 22vw;
+            }
+            .item-image:hover{
+            height: 20vw;
+            width: 20.2vw; 
+        }
+        .name{
+            font-size:5vw;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div id="toplogo">
+        <a href="home.html"><div id="logo-box"><img id="logo" src="Common_Images/nature-outdoor-logo-png-6.png"></div>
+     </a><div>
+        <div id="time">Time</div>
+        <div id="date">date</div>
+    </div>
+    </div>
+    <div id="getintouch">GET IN TOUCH</div>
+<div id="container">
+    <a class="social-media" href="https://www.linkedin.com/in/dharmendra-patel8090" target='block'  ><div class="items"><img class="item-image" src="Common_Images/logo.png"></div><div class="name" >Linkedin</div></a>
+    <a class="social-media" href="https://github.com/Dharmendra4455"  target='block'>  <div class="items"><img class="item-image" src="Common_Images/github.png"> </div><div class="name" >Github</div></a>
+    <a class="social-media" href="https://t.me/Dharmendra8090"    target='block'>  <div class="items"><img class="item-image" src="Common_Images/telegram.png"></div>       <div class="name" >Telegram</div></a>
+</div>
+<script src="Project.js"></script>
+</body>
+</html>
