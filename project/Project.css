@@ -159,29 +159,26 @@ body{
     padding-right: 5vw; 
     color: rgb(12, 31, 8);
   }
-  }
-#front-image{
-background-image:url('Home_page_image/latest (1).jpeg');
-width:auto;
+}
+.front-image{
+width: 100%;
 height: 542px;
 border: 2px solid red;
-animation-name: Dharmendra;
-animation-duration: 60s;
+background-image: url('Latest2/latest (13).jpeg');
+/*animation-name: Dharmendra;
+animation-duration: 50s;
 animation-iteration-count: infinite;
+animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);*/
 background-repeat: no-repeat;
-animation-direction: alternate;
 background-size: cover;
-
-
 }
-@keyframes Dharmendra {
 
+/*@keyframes Dharmendra {
 0%{
 background-image: url('Home_page_image/latest (2).jpeg');
 }
 10%{
 background-image: url('Home_page_image/latest (3).jpeg');
-
 }
 20%{
 background-image: url('Home_page_image/latest (4).png');
@@ -210,8 +207,11 @@ background-image: url('Home_page_image/latest (11).png');
 100%{
 background-image: url('Home_page_image/latest (12).png');
 }
-
+110%{
+background-image:url('Home_page_image/latest (1).jpeg');
 }
+}
+*/
 .menu-bar{
     display: none;
     box-shadow:rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
